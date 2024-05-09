@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.logo-alt {
+    max-width: 120px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+h2 {
+    margin: 20px 0;
+    color: #461103;
+}
+
+.codigo-mesa-content {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.codigo-mesa-content label {
+    margin-right: 10px;
+}
+
+.codigo-mesa-content label, .codigo-mesa-content input {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.codigo-mesa-content input {
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    max-width: calc(100% - 20px); /* Largura máxima com margem à esquerda e à direita */
+}
+
+
+.codigo-mesa-box {
+    background-color: #FBA51C;
+    border-radius: 5px;
+    padding: 5px;
+    width: 178px;
+    
+}
+
+.codigo-mesa-box input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.cards {
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #FBA51C;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin: 0;
+    color: #461103;
+}
+
+.card-content {
+    margin-top: 10px;
+}
+
+.card-content input {
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    max-width: calc(100% - 20px);
+    border: 1px solid #461103;
+}
+
+.fila {
+    background-color: #FBA51C;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: left;
+    text-size-adjust: 30px;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.enviar {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons button{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #461103;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 120px;
+}
+
+button:hover {
+    background-color: #7B2B16;
+}
