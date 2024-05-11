@@ -22,3 +22,4 @@ function exibirNomesClientes() {
 
 // Chama a função para exibir os nomes dos clientes quando a página carrega
 window.onload = exibirNomesClientes;
+

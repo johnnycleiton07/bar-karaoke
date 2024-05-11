@@ -110,6 +110,10 @@ h2 {
     text-size-adjust: 30px;
 }
 
+.lista {
+    list-style: none;
+}
+
 
 .buttons {
     display: flex;
@@ -141,4 +145,12 @@ button {
 
 button:hover {
     background-color: #7B2B16;
+}
+
+.musicas {
+    background: #FBA51C;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 0;
+    list-style: none;
 }
